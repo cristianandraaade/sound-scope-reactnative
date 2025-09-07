@@ -1,0 +1,21 @@
+import {StyleSheet} from 'react-native'
+
+const AlbunsStyle = StyleSheet.create({
+  container:{
+    backgroundColor: "#121212",
+    flex: 1, 
+  },
+  list: {
+    padding: 10,
+  },
+  cardWrapper: {
+    flex: 1,
+    margin: 5,
+  },
+  message: {
+    textAlign: "center",
+    marginTop: 20,
+    fontSize: 16,
+  },
+});
+export default AlbunsStyle;

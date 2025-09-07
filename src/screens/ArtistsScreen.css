@@ -1,0 +1,10 @@
+import {StyleSheet} from 'react-native'
+
+const ArtistStyles = StyleSheet.create({
+  container: {
+    backgroundColor: "#121212", 
+    padding: 20,
+  },
+});
+
+export default ArtistStyles;
